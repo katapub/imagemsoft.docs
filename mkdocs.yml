@@ -1,0 +1,30 @@
+site_name: Image documentations
+theme:
+   language: fr
+   name: material
+   custom_dir: overrides
+   logo: assets/logo.png
+   features:
+    #- navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+nav:
+  - Page d'accueil: index.md
+  - Commencer: 
+    - Bienvenu(e): index.md
+    - Example: example.md
+  - Postscriptum:
+    - PSscript: ps/ps-script.md
+    - PSvox PC: ps/ps-voxpc.md
+  - Interview:
+    - Install: in/installing-smile.md
+
+copyright: Copyright &copy; 2021 Katapub
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:jnicacio@katapub.com
